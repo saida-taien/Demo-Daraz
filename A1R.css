@@ -1,0 +1,102 @@
+@media screen and (min-width : 0px) and (max-width : 500px)
+{
+    nav
+    {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Advertisement-Container
+    {
+        flex-direction: column-reverse;
+        margin-top: 15px;
+    }
+    #Title1
+    {
+        font-size: 100%;
+    }
+    #Title2
+    {
+        font-size: 100%;
+    }
+    .Ad-Image img
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .Product-Container
+    {
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .Product-one img
+    {
+        height: 75%;
+        width: 75%;
+    }
+    .Product-two img
+    {
+        height: 75%;
+        width: 75%;
+    }
+    .Product-three img
+    {
+        height: 75%;
+        width: 75%;
+    }
+    .price
+    {
+        font-size: 60%;
+        
+    }
+    .Review-container
+    {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 10px;
+        
+    }
+    .Review-one
+    {
+        flex-direction: column;
+        padding: 15px 10%;
+        margin-right: 50px;
+        margin-left: 20px;
+        width: 200px;
+        height: 300px;
+    }
+    .Customer-one
+    {
+        flex-direction: column;
+        text-align: center;
+        margin:auto;
+    }
+    .Review-two
+    {
+        flex-direction: column;
+        padding: 0 10%;
+        margin-right: 150px;
+        margin-left: 20px;
+        width: 200px;
+        height: 300px;
+    }
+    .footer-row
+    {
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        margin-left: 65px;
+        
+    }
+    .footer-col
+    {
+        text-align: center;
+    }
+    .copyright h4
+    {
+        text-align: center;
+        padding: 0%;
+    }
+}
